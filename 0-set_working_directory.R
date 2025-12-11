@@ -30,8 +30,8 @@ if (Sys.info()[4] == "Ians-MacBook-Air.local") {
   #   you first need to install "Drive for desktop", see here:
   #   https://support.google.com/a/users/answer/13022292?hl=en
   # It's also fine to keep everything local and not linked to the cloud
-  main_dir <- "/Users/emilybruns/Library/CloudStorage/GoogleDrive-emily.b.bruns@gmail.com/My Drive/The Morton Arboretum/spatial_data_working"
-  log_loc <- "/Users/emilybruns/Library/CloudStorage/GoogleDrive-emily.b.bruns@gmail.com/My Drive/The Morton Arboretum/spatial_data_working/passwords.txt"
+  main_dir <- "/Users/emilybruns/Library/CloudStorage/GoogleDrive-emily.b.bruns@gmail.com/.shortcut-targets-by-id/1INh-TqGvoprNsVFnHI7CqR1J_zj1lQzd/Reassessments_Emily/occurrence-point-data"
+  log_loc <- "/Users/emilybruns/Library/CloudStorage/GoogleDrive-emily.b.bruns@gmail.com/My Drive/The Morton Arboretum/passwords.txt"
   #gap_dir <- "/Users/emily/Documents/GitHub/GapAnalysis_EBB/R"
   print(paste("Working from the lovely", Sys.info()[4]))
   
