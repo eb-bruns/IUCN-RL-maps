@@ -54,7 +54,7 @@
   # A) For calculating EOO/AOO using GeoCAT: https://geocat.iucnredlist.org
   #     (e.g., Asimina_triloba_GeoCAT.csv)
   # B) For submitting to the IUCN Red List with your assessment 
-  #     (e.g., Asimina_triloba_IUCN-RL.csv)
+  #     (e.g., Asimina_triloba_occurrence-points_IUCN-RL.csv)
 
 ################################################################################
 # Load libraries
@@ -238,7 +238,7 @@ for (i in 1:length(target_taxa)){
   
   ## write final occurrence point file for the RL
   write.csv(taxon_now, file.path(main_dir,occ_dir,standardized_occ,data_out,
-                                 paste0(taxon_file,"_IUCN-RL.csv")), 
+                                 paste0(taxon_file,"occurrence-points_IUCN-RL.csv")), 
             row.names=FALSE)
   
   ## write final occurrence point file for GeoCAT (EOO and AOO calc)
