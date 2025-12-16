@@ -238,7 +238,7 @@ for (i in 1:length(target_taxa)){
   
   ## write final occurrence point file for the RL
   write.csv(taxon_now, file.path(main_dir,occ_dir,standardized_occ,data_out,
-                                 paste0(taxon_file,"occurrence-points_IUCN-RL.csv")), 
+                                 paste0(taxon_file,"_occurrence-points_IUCN-RL.csv")), 
             row.names=FALSE)
   
   ## write final occurrence point file for GeoCAT (EOO and AOO calc)
