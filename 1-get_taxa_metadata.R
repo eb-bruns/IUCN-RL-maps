@@ -50,7 +50,7 @@ lapply(my.packages, require, character.only=TRUE)
 
 # use 0-set_working_directory.R script:
   # change this path based on where the script is located on your computer:
-source("/Users/emilybruns/Documents/GitHub/redlist_maps/spatial-analysis-workflow/0-set_working_directory.R")
+source("/Users/emilybruns/Documents/GitHub/IUCN-RL-maps/0-set_working_directory.R")
   
 ################################################################################
 # Read in target taxa and create folder for outputs

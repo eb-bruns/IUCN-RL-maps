@@ -47,7 +47,7 @@ devtools::install_github("ropensci/rnaturalearthhires")
 
 # use 0-set_working_directory.R script:
   # change this path based on where the script is located on your computer:
-source("/Users/emilybruns/Documents/GitHub/redlist_maps/spatial-analysis-workflow/0-set_working_directory.R")
+source("/Users/emilybruns/Documents/GitHub/IUCN-RL-maps/0-set_working_directory.R")
 
 ################################################################################
 # Create layer for add country codes and clipping occurrence points to land
