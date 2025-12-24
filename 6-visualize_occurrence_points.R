@@ -116,6 +116,10 @@ for(i in 1:length(taxa_cycle)){
   ## read in occurrence records (output from 5-flag_occurrence_points.R)
   taxon_now <- read.csv(file.path(main_dir,occ_dir,standardized_occ,data_in,
                                   paste0(taxa_cycle[i],".csv")))
+  ## use this to read in edited map (manual_point_edits) to view again
+  #taxon_now <- read.csv(file.path(main_dir,occ_dir,standardized_occ,
+  #                                paste0("taxon_points_final/",
+  #                                       taxa_cycle[i],"_vetted.csv")))
 
   ## create a color palette for the map's points, based on source database
     # set database as factor and order as you'd like for viewing overlapping

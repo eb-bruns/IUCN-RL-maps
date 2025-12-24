@@ -55,6 +55,8 @@
   #     (e.g., Asimina_triloba_GeoCAT.csv)
   # B) For submitting to the IUCN Red List with your assessment 
   #     (e.g., Asimina_triloba_occurrence-points_IUCN-RL.csv)
+  # C) For using to visualize again in script #6
+  #     (e.g., Asimina_triloba_vetted.csv)
 
 ################################################################################
 # Load libraries
@@ -186,6 +188,11 @@ for (i in 1:length(target_taxa)){
     taxon_now <- suppressMessages(full_join(taxon_now,add))
     cat(paste0("--Added back ",length(keep)," points based on IDs to keep\n"))
   }
+  
+  ## write final occurrence point file for visualizing again with script 6
+  write.csv(taxon_now, file.path(main_dir,occ_dir,standardized_occ,data_out,
+                                 paste0(taxon_file,"_vetted.csv")), 
+            row.names=FALSE)
   
   
   ### format for the IUCN Red List
